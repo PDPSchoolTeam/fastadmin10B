@@ -96,8 +96,8 @@ async def init_db():
 async def create_superuser():
     async with sqlalchemy_sessionmaker() as s:
         user = User(
-            username="admin",
-            password="admin",
+            username="nur",
+            password="123",
             is_superuser=True,
         )
         s.add(user)
