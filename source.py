@@ -226,6 +226,14 @@ app.add_middleware(
 
 """
 
+Windows ‼️
+
+$env:ADMIN_USER_MODEL = "User"
+$env:ADMIN_USER_MODEL_USERNAME_FIELD = "username"
+$env:ADMIN_SECRET_KEY = "secret_key"
+
+Linux or Mac OS ‼️
+
 export ADMIN_USER_MODEL=User
 export ADMIN_USER_MODEL_USERNAME_FIELD=username
 export ADMIN_SECRET_KEY=secret_key
